@@ -38,7 +38,7 @@ void loop() {
             lcd.clear();
             lcd.setCursor(0, 0);
             lcd.print(mensaje.substring(i, i + 16)); // Mueve el texto en la pantalla
-            delay(600);
+            delay(400);
         }
     }
 }
